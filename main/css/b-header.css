@@ -3,3 +3,35 @@
    font-size: 28px;
    width: 600px;
 }
+
+.help{
+   float: right;
+   width: 400px;
+
+}
+
+.help-link{
+   box-shadow: 0px 0px 2px #000;
+   border:none;
+   width: 200px;
+   height: 60px;
+   background: #ffcc00;
+   border-radius: 7px;
+   float: left;
+}
+
+@media (max-width:395px){
+   .help{
+      float: left;
+   }
+
+   .text-header{
+      float: left;
+   }
+}
+
+@media (max-width:302px){
+   .help{
+      width: 200px;
+   }
+}
